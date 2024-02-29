@@ -1,0 +1,15 @@
+Q1 Write a TypeScript program that calculates the area of a
+circle. 
+
+
+To Caluclate the area of circle in typecript we can write an program --
+
+// Function to  caluclate Circle of the radius 
+
+function caluclatecirclearea(radius : number): number {
+    return Math.PI * radius * radius;
+}
+const radius = 5;
+const area =caluclatecirclearea(radius);
+
+console.log('The area of circle with radius is 78.54')
